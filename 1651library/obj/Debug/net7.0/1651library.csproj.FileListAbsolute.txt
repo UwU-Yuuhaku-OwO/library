@@ -1,0 +1,15 @@
+D:\GreenCode\1651asm\1651library\1651library\bin\Debug\net7.0\1651library.exe
+D:\GreenCode\1651asm\1651library\1651library\bin\Debug\net7.0\1651library.deps.json
+D:\GreenCode\1651asm\1651library\1651library\bin\Debug\net7.0\1651library.runtimeconfig.json
+D:\GreenCode\1651asm\1651library\1651library\bin\Debug\net7.0\1651library.dll
+D:\GreenCode\1651asm\1651library\1651library\bin\Debug\net7.0\1651library.pdb
+D:\GreenCode\1651asm\1651library\1651library\obj\Debug\net7.0\1651library.csproj.AssemblyReference.cache
+D:\GreenCode\1651asm\1651library\1651library\obj\Debug\net7.0\1651library.GeneratedMSBuildEditorConfig.editorconfig
+D:\GreenCode\1651asm\1651library\1651library\obj\Debug\net7.0\1651library.AssemblyInfoInputs.cache
+D:\GreenCode\1651asm\1651library\1651library\obj\Debug\net7.0\1651library.AssemblyInfo.cs
+D:\GreenCode\1651asm\1651library\1651library\obj\Debug\net7.0\1651library.csproj.CoreCompileInputs.cache
+D:\GreenCode\1651asm\1651library\1651library\obj\Debug\net7.0\1651library.dll
+D:\GreenCode\1651asm\1651library\1651library\obj\Debug\net7.0\refint\1651library.dll
+D:\GreenCode\1651asm\1651library\1651library\obj\Debug\net7.0\1651library.pdb
+D:\GreenCode\1651asm\1651library\1651library\obj\Debug\net7.0\1651library.genruntimeconfig.cache
+D:\GreenCode\1651asm\1651library\1651library\obj\Debug\net7.0\ref\1651library.dll
