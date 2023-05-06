@@ -42,9 +42,9 @@ namespace _1651library
 
                 Console.WriteLine("Select the book's category number: ");
                 Console.WriteLine("1. It");
-                Console.WriteLine("2. GD");
-                Console.WriteLine("3. Bus");
-                Console.WriteLine("Enter Category:");
+                Console.WriteLine("2. Graphic Design");
+                Console.WriteLine("3. Business");
+                Console.Write("Enter Category:");
                 string Category = null;
 
                 bool validInput = false;
@@ -68,7 +68,7 @@ namespace _1651library
                             break;
                         case 3:
 
-                            Bussiness bus = new Bussiness(bId, bName, author, YoP, Category);
+                            Business bus = new Business(bId, bName, author, YoP, Category);
                             BookMng.Add(bus);
                             validInput = true;
                             Console.WriteLine("Book added successfully!");
@@ -158,8 +158,8 @@ namespace _1651library
             Console.WriteLine("Enter new Category");
             Console.WriteLine("Select the book's category number: ");
             Console.WriteLine("1. It");
-            Console.WriteLine("2. GD");
-            Console.WriteLine("3. Bus");
+            Console.WriteLine("2. Graphic Design");
+            Console.WriteLine("3. Business");
 
             bool validInput = false;
             while (!validInput)
@@ -169,18 +169,22 @@ namespace _1651library
                 switch (input)
                 {
                     case 1:
-                        It it = new It(bId, newName, newAuthor, yop, Category);
+                        book.category = "It";
                         BookMng.Add(it);
                         validInput = true;
                         Console.WriteLine("Book Update successfully!");
                         break;
                     case 2:
-                        book.category = "GD";
+                        book.category = "Graphic Design";
                         validInput = true;
+                        Console.WriteLine("Book Update successfully!");
+
                         break;
                     case 3:
-                        book.category = "Bus";
+                        book.category = "Business";
                         validInput = true;
+                        Console.WriteLine("Book Update successfully!");
+
                         break;
                     default:
                         Console.WriteLine("Invalid category number. Please try again.");
@@ -188,7 +192,8 @@ namespace _1651library
                 }
             }
 
-            Console.WriteLine("Book updated successfully.");
+            Console.WriteLine("");
+            Console.WriteLine("Enter to Leave!");
         }
 
         public void DeleteBook(string bId)
@@ -205,9 +210,6 @@ namespace _1651library
                 Console.WriteLine($"Book with ID {bId} does not exist.");
             }
         }
-
-
-
     }
 
 }

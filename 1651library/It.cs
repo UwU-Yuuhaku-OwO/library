@@ -11,6 +11,4 @@ namespace _1651library
         public It(string bId, string bName, string author, int yoP, string category) :base( bId,  bName,  author,  yoP, category)
         { this.category = "It"; }
     }
-
-    
 }

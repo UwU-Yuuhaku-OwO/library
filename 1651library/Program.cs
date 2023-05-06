@@ -76,7 +76,7 @@ namespace _1651library
                             case 0:
                                 break;
                             default:
-                                Console.WriteLine("Invalid option. Please enter a number between 0 and 5.");
+                                Console.WriteLine("Invalid option. Please enter a number between 0 to 5.");
                                 Console.ReadKey();
                                 break;
                         }

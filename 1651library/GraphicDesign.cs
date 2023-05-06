@@ -10,7 +10,7 @@ namespace _1651library
     {
         public GraphicDesign(string bId, string bName, string author, int yoP, string category) : base(bId, bName, author, yoP, category)
         {
-            this.category = "graphic";
+            this.category = "Graphic Design";
         } 
     }
 }
